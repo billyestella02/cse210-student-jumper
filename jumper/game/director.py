@@ -22,5 +22,9 @@ class Director:
         self.word = self.chooser.choose_word()
         
         while self.keep_playing:
-            user_letter = self.guesser.ask_letter()
-            
+            user_letter = asking_letter()
+    
+    def asking_letter(self):
+        user_letter = self.guesser.ask_letter()
+        
+

@@ -12,17 +12,18 @@ class Console:
         para_interface: The ascii interface of the parachute.
     """
      
-    def read(self, prompt):
-        """Gets text input from the user through the screen.
+    def validateLetter(self, letter):
+        """Validates the letter received from the user
 
         Args: 
             self (Screen): An instance of Screen.
-            prompt (string): The prompt to display to the user.
+            prompt (string): The letter to validate
 
         Returns:
-            string: The user's input as text.
+            string: The letter validated or an error
         """
-        return input(prompt)
+        try:
+            letter.isString()
 
     def read_number(self, prompt):
         """Gets numerical input from the user through the screen.
