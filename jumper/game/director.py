@@ -15,11 +15,12 @@ class Director:
         self.keep_playing = True
         self.chooser = WordChooser()
         self.guesser = Guesser()
+        self.console = Console()
     
     def start_game(self):
 
         self.word = self.chooser.choose_word()
         
         while self.keep_playing:
-
-
+            user_letter = self.guesser.ask_letter()
+            

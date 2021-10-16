@@ -1,13 +1,15 @@
 class Console:
     """
-    The responsibility of this class is to get text input, validate it 
-    and display text output.
-    
+    The responsibility of this class is to get text input and display text output.
+    It also validates and return the letters chosen by the user.
+
     Stereotype:
         Service Provider, Interfacer
 
     Attributes:
         prompt (string): The prompt to display on each line.
+        word_interface: The underscores with letters that represents the word to guess
+        para_interface: The ascii interface of the parachute.
     """
      
     def read(self, prompt):
