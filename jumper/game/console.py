@@ -11,31 +11,32 @@ class Console:
         word_interface: The underscores with letters that represents the word to guess
         para_interface: The ascii interface of the parachute.
     """
-     
-    def validateLetter(self, letter):
+    def __init__(self):
+        self.letters = []
+
+
+    def validate_letter(self, letter):
         """Validates the letter received from the user
 
         Args: 
             self (Screen): An instance of Screen.
-            prompt (string): The letter to validate
+            letter (string): The letter to validate
 
         Returns:
             string: The letter validated or an error
         """
-        try:
-            letter.isString()
-
-    def read_number(self, prompt):
-        """Gets numerical input from the user through the screen.
-
-        Args: 
-            self (Screen): An instance of Screen.
-            prompt (string): The prompt to display to the user.
-
-        Returns:
-            float: The user's input as a float.
-        """
-        return float(input(prompt))
+        if letter.isalpha():
+            if len(letter) == 1:
+                if letter in self.letters:
+                    return 3 #Error 3: Letter is repeated
+                else:
+                    # If there is no error
+                    self.letters.append(letter)
+                    return letter
+            else:
+                return 2 #Error 2: Letter is more than one letter
+        else:
+            return 1 #Error 1: Letter is a number or symbol
         
     def write(self, text):
         """Displays the given text on the screen. 
