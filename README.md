@@ -25,6 +25,10 @@ root                    (project root folder)
   +-- game              (specific game classes)
   +-- __init__.py       (python package file)
   +-- __main__.py       (entry point for program)
+  +-- console.py        (Console Class for receiving input and displaying output)
+  +-- director.py       (Director Class for facilitating the game flow)
+  +-- player.py         (Player Class that has a parachute and can make a guess)
+  +-- puzzle.py         (Puzzle class that generates the puzzle and checks the player's guess)
 +-- README.md           (general info)
 ```
 
@@ -35,3 +39,8 @@ root                    (project root folder)
 ## Authors
 ---
 * TODO: Add your names and emails here
+Billy Estella
+Santiago Pintus
+Aaron Quarshie
+Ricardo Chamorro
+Zitlally Almazan
