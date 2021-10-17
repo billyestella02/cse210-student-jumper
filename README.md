@@ -40,8 +40,8 @@ root                    (project root folder)
 ---
 * TODO: Add your names and emails here
 * 
-Billy Estella: bestella@byui.edu \n 
-Santiago Pintus: pin21010@byui.edu \n 
-Aaron Quarshie: ronyquash@gmail.com \n 
-Ricardo Chamorro: rikmanu1999@gmail.com \n
-Zitlally Almazan: alm20004@byui.edu \n
+Billy Estella: bestella@byui.edu
+Santiago Pintus: pin21010@byui.edu
+Aaron Quarshie: ronyquash@gmail.com
+Ricardo Chamorro: rikmanu1999@gmail.com
+Zitlally Almazan: alm20004@byui.edu
