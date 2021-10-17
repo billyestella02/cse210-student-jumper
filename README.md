@@ -39,8 +39,9 @@ root                    (project root folder)
 ## Authors
 ---
 * TODO: Add your names and emails here
-Billy Estella
-Santiago Pintus
-Aaron Quarshie
-Ricardo Chamorro
-Zitlally Almazan
+* 
+Billy Estella: bestella@byui.edu \n 
+Santiago Pintus: pin21010@byui.edu \n 
+Aaron Quarshie: ronyquash@gmail.com \n 
+Ricardo Chamorro: rikmanu1999@gmail.com \n
+Zitlally Almazan: alm20004@byui.edu \n
